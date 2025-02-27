@@ -439,7 +439,7 @@ function TextEditor() {
           editorClassName="editorClassName"
           onEditorStateChange={onEditorStateChange}
           toolbar={{
-            options: ['inline', 'blockType', 'fontSize', 'list', 'link', 'textAlign', 'image'],
+            options: ['inline', 'blockType', 'fontSize', 'list', 'link', 'textAlign', 'image','colorPicker'],
             link: { inDropdown: false },
             image: {
               //change for showing image
@@ -452,6 +452,7 @@ function TextEditor() {
                 width: "auto"
               }
             },
+            colorPicker: { className: undefined, component: undefined, popupClassName: undefined },
 
           }}
           wrapperStyle={{
