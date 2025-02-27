@@ -13,11 +13,8 @@ const App = () => {
     <>
       <Navbar />
       <Routes>
-        {/* <Route path='/login' element={<LoginPopup />} /> */}
         <Route path="/" element={<CardList />} />
-        {/* <Route path='/blog' element={<BlogMain/>}/> */}
         <Route path="/blog" element={<TextEditor />} />
-        {/* <Route path='/card' element={<Card />} /> */}
         <Route path="/forgotpassword" element={<ForgotPassword />} />
       </Routes>
     </>
